@@ -1,5 +1,5 @@
 import random
-
+  # Custom Exception
 class HighTemprature(Exception):
     pass
 class LowTempratature(Exception):
@@ -33,3 +33,4 @@ except ModrateTemp as m:
     print(m)
 finally:
     print("Program is completed ")
+
