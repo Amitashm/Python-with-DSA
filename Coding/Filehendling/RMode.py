@@ -1,11 +1,13 @@
 
 try:
-    file = open("Students.txt","x")
+    file = open("Student.txt" , "r")
 
-    file.write("Hello student")
+    print(file.read())
 
-except FileExistError as e :
-    print("already exist ")
+except FileNotFoundError as fe :
+    print("not abel to find exception")
 
+else:
+    print("problem in prgramS")
 finally:
-    print ("completed")
+    print("Complete Program ")
