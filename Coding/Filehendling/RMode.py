@@ -1,4 +1,4 @@
-
+ # Read Mode 
 try:
     file = open("Student.txt" , "r")
 
@@ -10,4 +10,4 @@ except FileNotFoundError as fe :
 else:
     print("problem in prgramS")
 finally:
-    print("Complete Program ")
+    print("Complete Program ")  
