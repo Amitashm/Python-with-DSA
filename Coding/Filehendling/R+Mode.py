@@ -1,3 +1,5 @@
+# Read plus mode 
+
 try:
     file = open("Students.txt","r+")
 
