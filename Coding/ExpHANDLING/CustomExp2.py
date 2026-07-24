@@ -16,7 +16,7 @@ def CheckTemp(temp):
     elif temp > 22 :
         raise LowTempratature({temp}," is low temp")
     
-
+  # custom exception 
 try:
 
     a = [10,-2,22,76,32,45,27]
