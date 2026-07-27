@@ -1,5 +1,5 @@
  
-#
+# exception hendling 
 try:
 
     a = int(input())
