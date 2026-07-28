@@ -1,5 +1,5 @@
  
-# exception hendling 
+# exception hendling
 try:
 
     a = int(input())
@@ -14,5 +14,6 @@ except ValueError:
 
 except ZeroDivisionError:
         print("not divideable ")
+
 
     
