@@ -1,5 +1,4 @@
-# Appends   Modes
-
+# Appends Modes
 try:
     file = open("Students.txt","a+")
 
