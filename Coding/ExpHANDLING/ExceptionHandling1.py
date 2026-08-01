@@ -7,7 +7,7 @@ try:
 
     c = a/b
 
-#Exception 
+
     
 except ValueError:
         print("value is invalid ")
