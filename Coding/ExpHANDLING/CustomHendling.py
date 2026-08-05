@@ -7,7 +7,7 @@ class AboveAge(Exception):
     pass
 
 
-# custom exception 
+# custom exception
 def CheckAge(name,year):
     age = 2026 - year
 
