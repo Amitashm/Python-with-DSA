@@ -6,7 +6,7 @@ class LowTempratature(Exception):
     pass
 class ModrateTemp(Exception):
     pass
- # condinal sataements 
+ # condinal sataements
 def CheckTemp(temp):
 
     if temp > 22 and  temp<27:
